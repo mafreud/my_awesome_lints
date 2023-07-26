@@ -1,0 +1,307 @@
+The Dart VM service is listening on http://127.0.0.1:57153/wGdIp_sXJRI=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:57153/wGdIp_sXJRI=/devtools?uri=ws://127.0.0.1:57153/wGdIp_sXJRI=/ws
+The Dart VM service is listening on http://127.0.0.1:58300/5MXhoGpTN2Y=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:58300/5MXhoGpTN2Y=/devtools?uri=ws://127.0.0.1:58300/5MXhoGpTN2Y=/ws
+The Dart VM service is listening on http://127.0.0.1:58422/Gu9Oo58ZC8k=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:58422/Gu9Oo58ZC8k=/devtools?uri=ws://127.0.0.1:58422/Gu9Oo58ZC8k=/ws
+[my_custom_lint_code] 2023-07-26T18:01:37.341795 title
+[my_custom_lint_code] 2023-07-26T18:01:38.072191 title
+[my_custom_lint_code] 2023-07-26T18:01:38.072508 title
+[my_custom_lint_code] 2023-07-26T18:01:38.073574 title
+[my_custom_lint_code] 2023-07-26T18:01:38.079877 title
+[my_custom_lint_code] 2023-07-26T18:01:38.511886 title
+[my_custom_lint_code] 2023-07-26T18:01:38.661412 title
+[my_custom_lint_code] 2023-07-26T18:01:38.763254 title
+[my_custom_lint_code] 2023-07-26T18:01:39.308116 title
+[my_custom_lint_code] 2023-07-26T18:01:39.799667 title
+[my_custom_lint_code] 2023-07-26T18:01:39.812641 title
+[my_custom_lint_code] 2023-07-26T18:01:42.159735 title
+[my_custom_lint_code] 2023-07-26T18:04:48.421047 title
+[my_custom_lint_code] 2023-07-26T18:04:49.487800 title
+[my_custom_lint_code] 2023-07-26T18:05:58.485430 title
+[my_custom_lint_code] 2023-07-26T18:06:02.360607 title
+[my_custom_lint_code] 2023-07-26T18:07:35.503535 title
+[my_custom_lint_code] 2023-07-26T18:07:38.678084 String
+[my_custom_lint_code] 2023-07-26T18:07:38.678415 title
+[my_custom_lint_code] 2023-07-26T18:07:39.870672 title
+[my_custom_lint_code] 2023-07-26T18:09:37.524563 title
+[my_custom_lint_code] 2023-07-26T18:16:53.755629 title
+[my_custom_lint_code] 2023-07-26T18:16:56.395324 title
+[my_custom_lint_code] 2023-07-26T18:16:58.791771 title
+[my_custom_lint_code] 2023-07-26T18:21:09.951025 title
+[my_custom_lint_code] 2023-07-26T18:22:35.431232 title
+[my_custom_lint_code] 2023-07-26T18:23:02.873841 title
+[my_custom_lint_code] 2023-07-26T18:23:04.674147 title
+[my_custom_lint_code] 2023-07-26T18:23:13.366948 title
+[my_custom_lint_code] 2023-07-26T18:23:23.358721 title
+[my_custom_lint_code] 2023-07-26T18:23:29.844145 title
+[my_custom_lint_code] 2023-07-26T18:26:57.067247 title
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 Plugin _MakeProviderFinalFix threw while analyzing /Users/masahiroaoki/Developer/custom_lint_examples/my_awesome_lints/example/lib/example.dart:
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 Null check operator used on a null value
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 #0      _MakeProviderFinalFix.run.<anonymous closure>.<anonymous closure>.<anonymous closure> (package:my_awesome_lints/my_awesome_lints.dart:115:40)
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 #1      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:148:20)
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 #2      _ChangeBuilderImpl.addDartFileEdit (package:custom_lint_core/src/change_reporter.dart:116:33)
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 #3      _MakeProviderFinalFix.run.<anonymous closure>.<anonymous closure> (package:my_awesome_lints/my_awesome_lints.dart:113:25)
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 #4      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:148:20)
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 #5      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 #6      _ChangeBuilderImpl._waitForCompletion (package:custom_lint_core/src/change_reporter.dart:144:5)
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 #7      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 #8      _ClientAnalyzerPlugin._handlesFixesForError (package:custom_lint_builder/src/client.dart:612:14)
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 #9      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 #10     _ClientAnalyzerPlugin.handleEditGetFixes (package:custom_lint_builder/src/client.dart:528:32)
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 #11     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:572:18)
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 #12     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:611:18)
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:58.860917
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 Plugin _MakeProviderFinalFix threw while analyzing /Users/masahiroaoki/Developer/custom_lint_examples/my_awesome_lints/example/lib/example.dart:
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 Null check operator used on a null value
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 #0      _MakeProviderFinalFix.run.<anonymous closure>.<anonymous closure>.<anonymous closure> (package:my_awesome_lints/my_awesome_lints.dart:115:40)
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 #1      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:148:20)
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 #2      _ChangeBuilderImpl.addDartFileEdit (package:custom_lint_core/src/change_reporter.dart:116:33)
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 #3      _MakeProviderFinalFix.run.<anonymous closure>.<anonymous closure> (package:my_awesome_lints/my_awesome_lints.dart:113:25)
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 #4      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:148:20)
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 #5      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 #6      _ChangeBuilderImpl._waitForCompletion (package:custom_lint_core/src/change_reporter.dart:144:5)
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 #7      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 #8      _ClientAnalyzerPlugin._handlesFixesForError (package:custom_lint_builder/src/client.dart:612:14)
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 #9      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 #10     _ClientAnalyzerPlugin.handleEditGetFixes (package:custom_lint_builder/src/client.dart:528:32)
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 #11     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:572:18)
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 #12     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:611:18)
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:26:59.373784
+[my_custom_lint_code] 2023-07-26T18:27:04.520092 title
+[my_custom_lint_code] 2023-07-26T18:27:10.074930 title
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 Plugin _MakeProviderFinalFix threw while analyzing /Users/masahiroaoki/Developer/custom_lint_examples/my_awesome_lints/example/lib/example.dart:
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 Null check operator used on a null value
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 #0      _MakeProviderFinalFix.run.<anonymous closure>.<anonymous closure>.<anonymous closure> (package:my_awesome_lints/my_awesome_lints.dart:115:40)
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 #1      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:148:20)
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 #2      _ChangeBuilderImpl.addDartFileEdit (package:custom_lint_core/src/change_reporter.dart:116:33)
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 #3      _MakeProviderFinalFix.run.<anonymous closure>.<anonymous closure> (package:my_awesome_lints/my_awesome_lints.dart:113:25)
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 #4      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:148:20)
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 #5      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 #6      _ChangeBuilderImpl._waitForCompletion (package:custom_lint_core/src/change_reporter.dart:144:5)
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 #7      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 #8      _ClientAnalyzerPlugin._handlesFixesForError (package:custom_lint_builder/src/client.dart:612:14)
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 #9      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 #10     _ClientAnalyzerPlugin.handleEditGetFixes (package:custom_lint_builder/src/client.dart:528:32)
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 #11     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:572:18)
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 #12     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:611:18)
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:16.249186
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 Plugin _MakeProviderFinalFix threw while analyzing /Users/masahiroaoki/Developer/custom_lint_examples/my_awesome_lints/example/lib/example.dart:
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 Null check operator used on a null value
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 #0      _MakeProviderFinalFix.run.<anonymous closure>.<anonymous closure>.<anonymous closure> (package:my_awesome_lints/my_awesome_lints.dart:115:40)
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 #1      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:148:20)
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 #2      _ChangeBuilderImpl.addDartFileEdit (package:custom_lint_core/src/change_reporter.dart:116:33)
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 #3      _MakeProviderFinalFix.run.<anonymous closure>.<anonymous closure> (package:my_awesome_lints/my_awesome_lints.dart:113:25)
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 #4      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:148:20)
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 #5      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 #6      _ChangeBuilderImpl._waitForCompletion (package:custom_lint_core/src/change_reporter.dart:144:5)
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 #7      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 #8      _ClientAnalyzerPlugin._handlesFixesForError (package:custom_lint_builder/src/client.dart:612:14)
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 #9      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 #10     _ClientAnalyzerPlugin.handleEditGetFixes (package:custom_lint_builder/src/client.dart:528:32)
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 #11     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:572:18)
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 #12     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:611:18)
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:17.403099
+[my_custom_lint_code] 2023-07-26T18:27:17.403784 title
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 Plugin _MakeProviderFinalFix threw while analyzing /Users/masahiroaoki/Developer/custom_lint_examples/my_awesome_lints/example/lib/example.dart:
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 Null check operator used on a null value
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 #0      _MakeProviderFinalFix.run.<anonymous closure>.<anonymous closure>.<anonymous closure> (package:my_awesome_lints/my_awesome_lints.dart:115:40)
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 #1      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:148:20)
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 #2      _ChangeBuilderImpl.addDartFileEdit (package:custom_lint_core/src/change_reporter.dart:116:33)
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 #3      _MakeProviderFinalFix.run.<anonymous closure>.<anonymous closure> (package:my_awesome_lints/my_awesome_lints.dart:113:25)
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 #4      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:148:20)
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 #5      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 #6      _ChangeBuilderImpl._waitForCompletion (package:custom_lint_core/src/change_reporter.dart:144:5)
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 #7      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 #8      _ClientAnalyzerPlugin._handlesFixesForError (package:custom_lint_builder/src/client.dart:612:14)
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 #9      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 #10     _ClientAnalyzerPlugin.handleEditGetFixes (package:custom_lint_builder/src/client.dart:528:32)
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 #11     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:572:18)
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 #12     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:611:18)
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:18.056732
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 Plugin _MakeProviderFinalFix threw while analyzing /Users/masahiroaoki/Developer/custom_lint_examples/my_awesome_lints/example/lib/example.dart:
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 Null check operator used on a null value
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 #0      _MakeProviderFinalFix.run.<anonymous closure>.<anonymous closure>.<anonymous closure> (package:my_awesome_lints/my_awesome_lints.dart:115:40)
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 #1      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:148:20)
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 #2      _ChangeBuilderImpl.addDartFileEdit (package:custom_lint_core/src/change_reporter.dart:116:33)
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 #3      _MakeProviderFinalFix.run.<anonymous closure>.<anonymous closure> (package:my_awesome_lints/my_awesome_lints.dart:113:25)
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 #4      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:148:20)
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 #5      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 #6      _ChangeBuilderImpl._waitForCompletion (package:custom_lint_core/src/change_reporter.dart:144:5)
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 #7      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 #8      _ClientAnalyzerPlugin._handlesFixesForError (package:custom_lint_builder/src/client.dart:612:14)
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 #9      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 #10     _ClientAnalyzerPlugin.handleEditGetFixes (package:custom_lint_builder/src/client.dart:528:32)
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 #11     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:572:18)
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 #12     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:611:18)
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:31.552915
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 Plugin _MakeProviderFinalFix threw while analyzing /Users/masahiroaoki/Developer/custom_lint_examples/my_awesome_lints/example/lib/example.dart:
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 Null check operator used on a null value
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 #0      _MakeProviderFinalFix.run.<anonymous closure>.<anonymous closure>.<anonymous closure> (package:my_awesome_lints/my_awesome_lints.dart:115:40)
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 #1      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:148:20)
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 #2      _ChangeBuilderImpl.addDartFileEdit (package:custom_lint_core/src/change_reporter.dart:116:33)
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 #3      _MakeProviderFinalFix.run.<anonymous closure>.<anonymous closure> (package:my_awesome_lints/my_awesome_lints.dart:113:25)
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 #4      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:148:20)
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 #5      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 #6      _ChangeBuilderImpl._waitForCompletion (package:custom_lint_core/src/change_reporter.dart:144:5)
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 #7      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 #8      _ClientAnalyzerPlugin._handlesFixesForError (package:custom_lint_builder/src/client.dart:612:14)
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 #9      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 #10     _ClientAnalyzerPlugin.handleEditGetFixes (package:custom_lint_builder/src/client.dart:528:32)
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 #11     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:572:18)
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 #12     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:611:18)
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502 <asynchronous suspension>
+[_MakeProviderFinalFix] 2023-07-26T18:27:32.079502
+[my_custom_lint_code] 2023-07-26T18:28:19.566668 title
+[my_custom_lint_code] 2023-07-26T18:28:25.470090 title
+[my_custom_lint_code] 2023-07-26T18:28:28.083551 title
+[my_custom_lint_code] 2023-07-26T18:28:31.138177 title
+[my_custom_lint_code] 2023-07-26T18:28:32.350310 title
+[my_custom_lint_code] 2023-07-26T18:32:31.303316 title
+[my_custom_lint_code] 2023-07-26T18:32:39.205126 title
+[my_custom_lint_code] 2023-07-26T18:32:49.876932 title
+[my_custom_lint_code] 2023-07-26T18:32:56.988571 title
+[my_custom_lint_code] 2023-07-26T18:32:57.029324 title
+[my_custom_lint_code] 2023-07-26T18:32:57.093803 title
+[my_custom_lint_code] 2023-07-26T18:32:57.229115 title
+[my_custom_lint_code] 2023-07-26T18:33:02.806698 title
+[my_custom_lint_code] 2023-07-26T18:33:06.867145 title
+[my_custom_lint_code] 2023-07-26T18:33:46.406304 title
+[my_custom_lint_code] 2023-07-26T18:33:51.835655 title
+[my_custom_lint_code] 2023-07-26T18:48:04.294231 title
+[my_custom_lint_code] 2023-07-26T18:49:48.529742 title
+[my_custom_lint_code] 2023-07-26T22:05:33.395976 title
+[_MakeProviderFinalFix] 2023-07-26T22:05:34.914252 [title = 'test']
+[_MakeProviderFinalFix] 2023-07-26T22:05:35.523870 [title = 'test']
+[my_custom_lint_code] 2023-07-26T22:05:49.075129 title
+[my_custom_lint_code] 2023-07-26T22:05:49.075737 title
+[my_custom_lint_code] 2023-07-26T22:05:49.075980 title
+[my_custom_lint_code] 2023-07-26T22:05:50.262636 title
+[_MakeProviderFinalFix] 2023-07-26T22:05:51.723003 title = 'test'
+[_MakeProviderFinalFix] 2023-07-26T22:05:52.392041 title = 'test'
+[my_custom_lint_code] 2023-07-26T22:07:05.795406 title
+[_MakeProviderFinalFix] 2023-07-26T22:07:06.679284 title = 'test'
+[_MakeProviderFinalFix] 2023-07-26T22:07:06.679630 String title = 'test'
+[_MakeProviderFinalFix] 2023-07-26T22:07:07.367182 title = 'test'
+[_MakeProviderFinalFix] 2023-07-26T22:07:07.368080 String title = 'test'
+[my_custom_lint_code] 2023-07-26T22:07:36.176583 title
+[_MakeProviderFinalFix] 2023-07-26T22:07:36.736759 title
+[_MakeProviderFinalFix] 2023-07-26T22:07:37.292499 title
+[my_custom_lint_code] 2023-07-26T22:08:37.141034 title
+[my_custom_lint_code] 2023-07-26T22:08:39.713136 yay
+[my_custom_lint_code] 2023-07-26T22:08:40.892256 title
+The Dart VM service is listening on http://127.0.0.1:50255/-nO_lIfmtJI=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:50255/-nO_lIfmtJI=/devtools?uri=ws://127.0.0.1:50255/-nO_lIfmtJI=/ws
+The Dart VM service is listening on http://127.0.0.1:50301/FYg3Swy7-zY=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:50301/FYg3Swy7-zY=/devtools?uri=ws://127.0.0.1:50301/FYg3Swy7-zY=/ws
+[my_custom_lint_code] 2023-07-26T22:09:17.621557 title
+[my_custom_lint_code] 2023-07-26T22:09:22.960436 title
+[my_custom_lint_code] 2023-07-26T22:09:53.281355 title
+[my_custom_lint_code] 2023-07-26T22:10:00.907326 title
+[my_custom_lint_code] 2023-07-26T22:10:00.932300 title
+[my_custom_lint_code] 2023-07-26T22:10:02.220183 title
+[my_custom_lint_code] 2023-07-26T22:10:11.072933 🥳🥳🥳
+[my_custom_lint_code] 2023-07-26T22:10:16.152798 title
+[my_custom_lint_code] 2023-07-26T22:11:29.139512 title
+[my_custom_lint_code] 2023-07-26T22:11:52.816613 title
+[my_custom_lint_code] 2023-07-26T22:11:55.369300 yay
+[my_custom_lint_code] 2023-07-26T22:11:58.148498 title
+[my_custom_lint_code] 2023-07-26T22:12:07.230076 title
+[my_custom_lint_code] 2023-07-26T22:12:10.280867 yay
+[my_custom_lint_code] 2023-07-26T22:12:11.504965 title
+[change] 2023-07-26T22:12:40.557100 title
+[change] 2023-07-26T22:13:00.861793 title
+[change] 2023-07-26T22:13:23.147397 title
+[change] 2023-07-26T22:13:29.172663 title
+[change] 2023-07-26T22:13:34.131116 myAwesomeVariable
+[change] 2023-07-26T22:13:35.613649 title
+[change] 2023-07-26T22:13:59.836506 title
+[change] 2023-07-26T22:15:05.520088 myAwesomeVariable
+[change] 2023-07-26T22:15:06.693504 title
+[change] 2023-07-26T22:15:12.899585 myAwesomeVariable
+[change] 2023-07-26T22:15:16.073744 myAwesomeVariable
+[change] 2023-07-26T22:15:16.653525 myAwesomeVariable
+[change] 2023-07-26T22:15:19.267185 myAwesomeVariable
+[change] 2023-07-26T22:15:21.077891 myAwesomeVariable
+[change] 2023-07-26T22:15:22.163249 myAwesomeVariable
+[change] 2023-07-26T22:15:24.818684 myAwesomeVariable
+[change] 2023-07-26T22:15:25.948593 myAwesomeVariable
+The Dart VM service is listening on http://127.0.0.1:56374/B5C1dDdIoMg=/
+The Dart DevTools debugger and profiler is available at: http://127.0.0.1:56374/B5C1dDdIoMg=/devtools?uri=ws://127.0.0.1:56374/B5C1dDdIoMg=/ws
+[change] 2023-07-26T22:15:57.993700 myAwesomeVariable
+[change] 2023-07-26T22:16:02.648339 myAwesomeVariable
+[change] 2023-07-26T22:16:08.787779 myAwesomeVariable
+[change] 2023-07-26T22:16:09.237385 myAwesomeVariable
+[change] 2023-07-26T22:16:11.623309 myAwesomeVariable
+[change] 2023-07-26T22:16:12.464366 myAwesomeVariable
+[change] 2023-07-26T22:16:12.583419 myAwesomeVariable
+[change] 2023-07-26T22:16:14.126336 t
+[change] 2023-07-26T22:16:14.198816 ti
+[change] 2023-07-26T22:16:14.293260 tit
+[change] 2023-07-26T22:16:14.375876 titl
+[change] 2023-07-26T22:16:14.475331 title
+[change] 2023-07-26T22:16:17.664663 title
+[change] 2023-07-26T22:16:19.292794 title
+[change] 2023-07-26T22:16:20.443939 title
